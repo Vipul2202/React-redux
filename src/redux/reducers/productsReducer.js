@@ -8,7 +8,7 @@ export const productsReducer = (state = intialState, { type, payload }) => {
     case ActionTypes.SET_PRODUCTS: return { ...state, products: payload };
     default:
       return state;
-  }
+  } 
 };
 
 export const selectedProductsReducer = (state = {}, { type, payload }) => {
