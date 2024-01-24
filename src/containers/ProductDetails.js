@@ -37,7 +37,7 @@ const ProductDetails = () => {
             <div className="middle aligned row">
               <div className="column lp">
                 <img className="ui fluid image" src={image} />
-              </div>
+    </div>
               <div className="column rp">
                 <h1>{title}</h1>
                 <h2>

@@ -3,7 +3,6 @@ import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { setProducts } from "../redux/actions/productsActions";
 import ProductComponent from "./ProductComponent";
-
 const ProductPage = () => {
   const products = useSelector((state) => state.allProducts.products);
   const dispatch = useDispatch();
@@ -23,8 +22,6 @@ const ProductPage = () => {
     // compute and return the memoized value
     // based on some dependencies
   }, [ProductPage ]);
-  
-
   console.log("Products :", products);
   return (
     <div className="ui grid container">

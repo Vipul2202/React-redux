@@ -1,3 +1,4 @@
+// import { type } from "os";
 import { ActionTypes } from "../constants/action-types";
 
 export const setProducts = (products) => {
@@ -6,6 +7,10 @@ export const setProducts = (products) => {
     payload: products,
   };
 };
+// export const upstate =() =>{
+// type: ActionTypes.upstate,
+// payload: product,
+// }
 
 export const selectedProduct = (product) => {
   return {
